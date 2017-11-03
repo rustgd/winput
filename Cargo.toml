@@ -1,0 +1,6 @@
+[package]
+name = "winput"
+version = "0.1.0"
+authors = ["Thomas Schaller <torkleyy@gmail.com>"]
+
+[dependencies]
