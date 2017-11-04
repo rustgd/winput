@@ -3,4 +3,12 @@ name = "winput"
 version = "0.1.0"
 authors = ["Thomas Schaller <torkleyy@gmail.com>"]
 
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.31.3"
+
 [dependencies]
+input = "0.3"
+libc = "0.2.33"
+winit = "0.8"
